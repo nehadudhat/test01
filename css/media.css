@@ -1,0 +1,69 @@
+/* xxl */
+
+@media(max-width:1440px) {
+    html {
+        overflow-x: hidden;
+    }
+}
+
+
+/* xl */
+
+@media(max-width:1199px) {}
+
+
+/* lg */
+
+@media(max-width:991px) {
+    html {
+        overflow-x: hidden;
+    }
+    .top-nav {
+        display: none;
+    }
+    .order-lg-2 {
+        order: 2!important;
+    }
+    .order-lg-1 {
+        order: 1!important;
+    }
+    .girls {
+        text-align: center;
+        display: flex;
+        display: inline;
+    }
+    #blog .col-lg-6 {
+        margin-top: 10px !important;
+    }
+}
+
+
+/* md */
+
+@media(max-width:768px) {
+    /* .up-top p{
+  display: none;
+} */
+    #consultancy .img {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 37px;
+    }
+    #consultancy .img img {
+        width: 200px;
+    }
+    #consultancy {
+        padding-top: 32px;
+        padding-bottom: 0;
+    }
+}
+
+
+/* sm */
+
+@media(max-width:576px) {}
